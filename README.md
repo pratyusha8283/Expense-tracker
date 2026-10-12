@@ -51,58 +51,6 @@ expense-tracker/
 └── README.md
 ```
 
-## ⚙️ Installation and Setup
-
-Follow these steps to run the project locally.
-
-### 1. Clone the Repository
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-### 2. Navigate to the Project Directory
-
-```bash
-cd expense-tracker
-```
-
-### 3. Install Dependencies
-
-```bash
-npm install
-```
-
-### 4. Configure Firebase
-
-Create a Firebase project and configure the authentication provider required by the application.
-
-Set up the necessary Firebase environment variables using the variable names expected by your `firebase.js` file.
-
-Keep sensitive credentials out of your public repository.
-
-### 5. Start the Development Server
-
-```bash
-npm run dev
-```
-
-Open the local URL displayed in your terminal to access the application.
-
-## 🏗️ Build for Production
-
-Generate an optimized production build:
-
-```bash
-npm run build
-```
-
-To preview the production build locally:
-
-```bash
-npm run preview
-```
-
 ## 🚀 Deployment
 
 This application is deployed using Vercel.
